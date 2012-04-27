@@ -29,4 +29,3 @@ class Filiado(models.Model):
 	tipo_instituicao = models.CharField(max_length=100)
 	endereco_instituicao = models.TextField()
 	telefone_instituicao = models.CharField(max_length=20)
-
