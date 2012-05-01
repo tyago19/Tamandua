@@ -16,5 +16,5 @@ urlpatterns = patterns('',
     # Uncomment the next line to enable the admin:
     url(r'^admin/', include(admin.site.urls)),
     url(r'^$', TemplateView.as_view(template_name='objetos/index.html')),
-    url(r'^images/(.*)$', 'django.views.static.serve', {'document_root': 'tamandua/objetos/templates/objetos/images'}),
+    url(r'^media/(.*)$', 'django.views.static.serve', {'document_root': 'tamandua/objetos/templates/objetos/media'}),
 )
