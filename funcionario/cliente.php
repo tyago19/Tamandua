@@ -68,7 +68,7 @@ $(document).ready(function() {
 	<div id="page">
 		<div id="content">
 			<div class="box">
-				<h2>Cliene</h2>
+				<h2>Cliente</h2>
 				<form id="form-cliente" action="controller/cadCliente.php" method="POST">
 					<div id="form-row">
 						<label>CPF:</label> <input type="text" id="cpf" name="cpf" class="texto" />
