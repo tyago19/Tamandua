@@ -1,0 +1,61 @@
+body {
+	background: #eeeeee;
+	margin: 0;
+	padding: 0;
+	font-size: 12px;
+	font-family: "Lucida Grande","DejaVu Sans","Bitstream Vera Sans",Verdana,Arial,sans-serif;
+	color: #333;
+}
+
+#login {
+    background: white;
+    border: 1px solid #ccc;
+    width: 31em;
+    min-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+}
+
+#login h1 {
+	background: #417690;
+	color:#eef379;
+	font-size: 18px;
+	padding:6px;
+	margin:0;
+	font-weight: normal;
+}
+
+#login form {
+    margin-top: 1em;
+}
+
+#login .form-row {
+    padding: 4px 0;
+    float: left;
+    width: 100%;
+}
+
+#login .form-row label {
+    float: left;
+    width: 9em;
+    padding-right: 0.5em;
+    line-height: 2em;
+    text-align: right;
+    font-size: 1em;
+    color: #333;
+}
+
+#login .form-row #username, #login .form-row #senha {
+    width: 14em;
+}
+
+#login .submit-row {
+    clear: both;
+    padding: 1em 0 0 9.4em;
+}
+
+#error {
+	margin-left:120px;
+	margin-bottom:3px;
+}
