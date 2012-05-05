@@ -69,7 +69,7 @@ $(document).ready(function() {
 		<div id="content">
 			<div class="box">
 				<h2>Cliente</h2>
-				<form id="form-cliente" action="controller/cadCliente.php" method="POST">
+				<form id="form-cliente" action="controller/cadCliente.php" method="post">
 					<div id="form-row">
 						<label>CPF:</label> <input type="text" id="cpf" name="cpf" class="texto" />
 					</div>
