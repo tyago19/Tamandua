@@ -66,7 +66,7 @@ $(document).ready(function() {
 		<div id="content">
 			<div class="box">
 				<h2>Depósito</h2>
-				<form id="form-saque" method="POST" action="controller/cadSaque.php">
+				<form id="form-saque" method="post" action="controller/cadSaque.php">
 					<div id="form-row">
 						<label>CPF:</label> <input type="text" id="cpf" name="cpf" class="texto" />
 					</div>
