@@ -39,7 +39,7 @@ $(document).ready(function() {
 	$("#sacar").click(function() {
 		var action = $("#form-saque").attr('action');
 		var form_data = {
-			nroconta: $("#nroconta").val(),
+			cpf: $("#cpf").val(),
 			valor: $("#valor").val()
 		};
 		$.ajax({
@@ -65,10 +65,10 @@ $(document).ready(function() {
 	<div id="page">
 		<div id="content">
 			<div class="box">
-				<h2>Saque</h2>
+				<h2>Depósito</h2>
 				<form id="form-saque" method="POST" action="controller/cadSaque.php">
 					<div id="form-row">
-						<label>Nro Conta:</label> <input type="text" id="nroconta" name="nroconta" class="texto" />
+						<label>CPF:</label> <input type="text" id="cpf" name="cpf" class="texto" />
 					</div>
 					<div id="form-row"> 
 						<label>Valor:</label> <input type="text" id="valor" name="valor" class="texto" />
